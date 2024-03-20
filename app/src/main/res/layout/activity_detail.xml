@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/three_username"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_purple"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvDrink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/three_drink"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_purple"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/three_type"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_purple"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/three_add"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_purple"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/waiting_order"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="28sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_icon"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/done_order"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:layout_margin="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

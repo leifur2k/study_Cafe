@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cafe</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="et_username_hint">Имя пользователя</string>
+    <string name="et_password_hint">Пароль</string>
+    <string name="b_enter">Войти</string>
+    <string name="hello">Привет, %s! Что желаете?</string>
+    <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
+    <string name="add">Что добавить в ваш %s?</string>
+    <string name="sugar">Сахар</string>
+    <string name="milk">Молоко</string>
+    <string name="lemon">Лимон</string>
+    <string name="choice">Выберите тип напитка</string>
+    <string name="b_order">ЗАКАЗАТЬ</string>
+    <string name="tx_wrong">Введите корректный Логин!</string>
+    <string name="three_username">Имя: %s</string>
+    <string name="three_drink">Напиток: %s</string>
+    <string name="three_type">Тип напитка: %s</string>
+    <string name="three_add">Добавка: %s</string>
+    <string name="waiting_order">Заказ готовится. Ожидайте...</string>
+    <string name="done_order">Заказ готов. Подойдите к кассе =)</string>
+
+    <array name="types_of_tea">
+        <item>Зеленый</item>
+        <item>Черный</item>
+    </array>
+
+    <array name="types_of_coffee">
+        <item>Американо</item>
+        <item>Эспрессо</item>
+        <item>Латте</item>
+    </array>
+
+</resources>
